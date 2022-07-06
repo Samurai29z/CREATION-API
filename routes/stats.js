@@ -66,6 +66,8 @@ const createStats = async (req, res, next) => {
     }
   };
 
+  
+
   const deleteStats = async (req, res, next) => {
     try {
       const data = fs.readFileSync(statsFilePath);
